@@ -1,0 +1,53 @@
+/*About Section */
+.about-section {
+  &__container {
+    display: flex;
+    gap: 28px;
+    position: relative;
+  }
+
+  &__title {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.1;
+    margin-top: 160px;
+
+    span {
+      color: var(--blue-light);
+    }
+  }
+
+  &__text {
+    max-width: 709px;
+    flex-grow: 1;
+
+    p {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 1.7;
+
+      &:first-of-type {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+
+  &__photo {
+    img {
+      border-radius: 50%;
+      width: 327px;
+      height: 327px;
+
+      &:last-child {
+        margin-top: 40px;
+        margin-left: 172px;
+      }
+    }
+  }
+}

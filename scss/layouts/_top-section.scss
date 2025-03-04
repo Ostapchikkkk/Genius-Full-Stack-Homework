@@ -1,0 +1,77 @@
+/* top section */
+
+.top-section {
+  background-image: linear-gradient(
+      to right,
+      white 0%,
+      white 40%,
+      transparent 60%
+    ),
+    url(/homework/hw2/static/img/girl2.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+
+  padding: 130px 0;
+
+  &__content {
+    padding: 0 0 0 100px;
+    text-align: center;
+
+    @media screen and (min-width: $bp-desktop) {
+      padding: 0;
+      text-align: left;
+    }
+  }
+
+  &__title {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 0.8;
+    color: var(--blue-light);
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    max-width: 500px;
+
+    @media screen and (max-width: $bp-desktop) {
+      font-size: 64px;
+      margin-bottom: 0;
+      margin: auto;
+      text-align: center;
+    }
+  }
+
+  &__subtitle {
+    color: var(--blue-dark);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0.8;
+
+    @media screen and (max-width: $bp-desktop) {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+
+  &__copyright {
+    margin-top: 14px;
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+
+    @media screen and (max-width: $bp-desktop) {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+
+  &__button {
+    margin-top:  32px;
+
+    &:hover {
+      color: var(--blue-dark);
+    }
+  }
+}

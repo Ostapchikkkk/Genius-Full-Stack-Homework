@@ -1,0 +1,54 @@
+.procedures-card {
+  border-radius: 4px 120px;
+  height: 456px;
+  width: 344px;
+  //   padding: 372px 77px 32px 115px;
+  flex-wrap: wrap;
+  position: relative;
+
+  &.active-card {
+    transform: scale(1.08);
+  }
+
+  &__text {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.18;
+    max-width: 152px;
+    text-align: center;
+    position: absolute;
+    bottom: 32px;
+    left: 115px;
+  }
+
+  &__image-1 {
+    background-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 40%,
+        rgba(1, 28, 68, 1) 100%
+      ),
+      url(/homework/hw2/static/img/procedures-3.png);
+  }
+
+  &__image-2 {
+    background-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 40%,
+        rgba(1, 28, 68, 1) 100%
+      ),
+      url(/homework/hw2/static/img/procedures-1.png);
+  }
+
+  &__image-3 {
+    background-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 40%,
+        rgba(1, 28, 68, 1) 100%
+      ),
+      url(/homework/hw2/static/img/procedures-2.png);
+  }
+}

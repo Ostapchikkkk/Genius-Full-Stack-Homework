@@ -1,0 +1,63 @@
+/* Stars */
+.star-1 {
+    position: absolute;
+    right: 295px;
+    top: 336px;
+    animation: twinkle 2s infinite alternate, moveUp 10s infinite linear;
+}
+
+.star-2 {
+    position: absolute;
+    right: -8px;
+    top: +32px;
+    animation: twinkle 2s infinite alternate, moveUp 10s infinite linear;
+}
+
+.star-3 {
+    position: absolute;
+    right: +6px;
+    bottom: +405px;
+    animation: twinkle 2s infinite alternate, moveUp 10s infinite linear;
+}
+
+
+.star-1:nth-child(1) {
+    top: 20%;
+    left: 10%;
+    animation-delay: 0.5s;
+}
+
+.star-2:nth-child(2) {
+    top: 50%;
+    left: 30%;
+    animation-delay: 1s;
+}
+
+.star-3:nth-child(3) {
+    top: 80%;
+    left: 70%;
+    animation-delay: 1.5s;
+}
+
+
+@keyframes twinkle {
+    0% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}

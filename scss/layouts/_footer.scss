@@ -1,0 +1,77 @@
+/* FOOTER */
+
+.footer {
+  background-color: #011c44;
+  padding: 56px 0px;
+
+  position: relative;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &__container {
+    display: flex;
+  }
+
+  &__nav,
+  &__address {
+    flex-basis: 50%;
+    display: flex;
+    gap: 20px;
+  }
+
+  &__logo,
+  &__menu {
+    flex-grow: 1;
+    li {
+      padding-bottom: 16px;
+    }
+  }
+
+  &__bottles {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  &__address-list,
+  &__address-info {
+    flex-grow: 1;
+  }
+
+  &__address-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-bottom: 16px;
+
+    &:hover {
+      color: var(--white);
+    }
+  }
+
+  &__address-icons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+
+    li {
+      width: 42px;
+      height: 42px;
+    }
+  }
+
+  &__address-icon {
+    fill: #fff;
+  }
+
+  &__address-copyright {
+    font-size: 14px;
+    color: var(--gray);
+  }
+}

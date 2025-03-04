@@ -1,0 +1,85 @@
+/* Contact section */
+
+.contact-section {
+  &__container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 96px;
+  }
+
+  &__title {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.1;
+    text-align: center;
+
+    span {
+      color: var(--blue-light);
+    }
+  }
+
+  &__map {
+    iframe {
+      width: 605px;
+      height: 481px;
+      border-radius: 32px;
+      margin-bottom: 94px;
+    }
+  }
+}
+
+.contact-form {
+  background-color: #011c44;
+  width: 423px;
+  height: 481px;
+  padding: 48px 56px;
+  border-radius: 32px;
+  text-align: center;
+}
+
+.contact-form-subtitle {
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.17;
+  margin: 0 auto 16px;
+  color: #fff;
+  max-width: 274px;
+}
+
+.contact-form-subtitle span {
+  color: var(--blue-light);
+}
+
+.contact-form-field {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.contact-form-label {
+  position: absolute;
+  left: 42px;
+  top: 16px;
+  pointer-events: none;
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--white);
+  transition: transform 0.3s;
+}
+
+.contact-form-input {
+  padding: 16px 32px;
+  font-size: 16px;
+  line-height: 1.17;
+  width: 100%;
+  border: 1px solid var(--white);
+  border-radius: 32px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.contact-form-input:focus {
+  outline: none;
+}

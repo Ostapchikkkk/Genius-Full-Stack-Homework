@@ -1,0 +1,24 @@
+// Utils
+@import './utils/variables';
+@import './utils/fonts';
+
+// Base
+@import './base';
+
+// Layouts
+@import './layouts/container';
+@import './layouts/header';
+@import './layouts/top-section';
+@import './layouts/about-section';
+@import './layouts/we-section';
+@import './layouts/procedures-section';
+@import './layouts/contact-section';
+@import './layouts/footer';
+@import './layouts/modal';
+
+
+// components
+@import './components/buttons';
+@import './components/stars';
+@import './components/procedures-card';
+@import './components/carousel-button';
